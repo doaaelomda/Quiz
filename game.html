@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quick quiz=play</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="loader"></div>
+        <div id="game" class="justify-center flex-colum hidden">
+            <div class="hud">
+                <div class="hub-item">
+                    <p id="progresstext" class="hub-pretix">
+                        Question
+                    </p>
+                    <div id="progressbar">
+                        <div id="progressbarfull">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="hub-item">
+                    <p class="hub-pretix" >
+                        Score
+                    </p>
+                    <h1 class="hub-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question"></h2>
+            <div class="choice-container">
+                <p class="choice">A</p>
+                <p class="choice-text" data-number="1"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice">B</p>
+                <p class="choice-text" data-number="2"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice">C</p>
+                <p class="choice-text" data-number="3"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice">D</p>
+                <p class="choice-text" data-number="4"></p>
+            </div>
+        </div>
+    </div>
+    <script src="about.js"> </script>
+</body>
+</html>
